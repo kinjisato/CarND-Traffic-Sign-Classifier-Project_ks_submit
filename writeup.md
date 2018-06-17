@@ -56,9 +56,7 @@ Here is an exploratory visualization of the data set. As first, I picked one pic
 
 And second, I made distribution graphs for Training set, Validation set and Test test to confirm how many signs were included for each classed in the 3 sets.
 
-![alt text][image2]
-![alt text][image3]
-![alt text][image4]
+![alt text][image2] ![alt text][image3] ![alt text][image4]
 
 ### Design and Test a Model Architecture
 
