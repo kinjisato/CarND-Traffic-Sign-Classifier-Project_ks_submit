@@ -20,9 +20,9 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./ImagesForWriteup/SummaryExploration001.jpg "Summary and Exploration"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
+[image2]: ./ImagesForWriteup/DistributionTrainingSet.jpg "Distribution Training Set"
+[image3]: ./ImagesForWriteup/DistributionValidationSet.jpg "Distribution Validation Set"
+[image4]: ./ImagesForWriteup/DistributionTest.jpg "Distribution Test Set"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
@@ -50,9 +50,15 @@ I used basic python code, and those were enough for questions.
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set. As first, I picked one picture up from each classes, and also wrote the meaning of the signs from signnames.csv.
 
 ![alt text][image1]
+
+And second, I made distribution graphs for Training set, Validation set and Test test to confirm how many signs were included for each classed in the 3 sets.
+
+![alt text][image2]
+![alt text][image3]
+![alt text][image4]
 
 ### Design and Test a Model Architecture
 
