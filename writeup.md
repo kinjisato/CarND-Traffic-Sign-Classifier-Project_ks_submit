@@ -141,6 +141,7 @@ Here are the results of the prediction:
 | 31 Wild animals crossing     			| 8 Speed limit (120km/h) 										|
 | 40 Roundabout mandatory					| 40 Roundabout mandatory												|
 | 9 No passing					| 9 No passing												|
+| 28 Children crossing					| 18 General caution										|
 | 14 Stop	      		| 14 Stop				 				|
 | 13 Yield			| 13 Yield      							|
 
