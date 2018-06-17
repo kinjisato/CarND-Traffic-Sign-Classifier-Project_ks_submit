@@ -62,23 +62,10 @@ And second, I made distribution graphs for Training set, Validation set and Test
 
 #### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
-As a first step, I decided to convert the images to grayscale because ...
+As a first try, I decided to convert the images to grayscale as same as the lectures, image size was converted to 32 x 32 x 1 from original 32 x 32 x 3. And convolution was also same as lecture. But this did not give good validation accuraty, that was below than 90%.
+So, second try, I used nomalize filter for 3 color images. I applied normalize filter for each color channels, and after that I applied conv filter. The conv filter input size was increased to fit 3 colors from 1 grayscale. This gave better result than my first try of grayscale, and then I decided to tune conv filter as described below.
 
-Here is an example of a traffic sign image before and after grayscaling.
-
-![alt text][image2]
-
-As a last step, I normalized the image data because ...
-
-I decided to generate additional data because ... 
-
-To add more data to the the data set, I used the following techniques because ... 
-
-Here is an example of an original image and an augmented image:
-
-![alt text][image3]
-
-The difference between the original data set and the augmented data set is the following ... 
+Without this normalization for 3 color channels, I did not use any other pre-processes for given images.
 
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
