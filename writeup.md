@@ -152,6 +152,7 @@ Comparing with the test set accuracy of 93.4%, this result was worse.
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 Image : 12 Priority road
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1.0         			| 12 Priority road   									| 
@@ -159,9 +160,12 @@ Image : 12 Priority road
 | 0.0					| 21 Double curve									|
 | 0.0	      			| 17 No entry		 				|
 | 0.0			    | 11 Right of way at next intersection     							|
+
 Good prediction
 
+
 Image : 31 Wild animals crossing
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 0.4         			| 8 Speed limit 120km/h  									| 
@@ -169,24 +173,14 @@ Image : 31 Wild animals crossing
 | 0.08					| 4	Speed limit 70km/h								|
 | 0.07	      			| 9	No passing	 				|
 | 0.07			    | 0 Speed limit 20km/h    							|
+
 Bad prediction
 I was dissaplinted that there were not correct sign in top 5 propability.
 Model choosed some triangle shape signs.
 Maybe, need to increase the sample of this sign for training.
 
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
-
-
-For the second image ... 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
