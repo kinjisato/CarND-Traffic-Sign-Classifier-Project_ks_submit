@@ -85,10 +85,11 @@ My final model consisted of the following layers:
 | Fully connected		| output = 120       									|
 | Fully connected		| output = 84       									|
 | RELU					|	Drop Out (0.9 for training)											|
-| Fully connected		| output = 43 (same as classes of sign       									|
+| Fully connected		| output = 43 (same as classes of sign )      									|
 | Softmax				|         									|
 
- 
+ The model structure is the almost same as the structure of lenet used in the lecture.
+ Difference was drop out (keep_prob) to prevent overfitting when training.
 
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
