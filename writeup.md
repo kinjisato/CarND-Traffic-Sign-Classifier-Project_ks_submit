@@ -22,7 +22,7 @@ The goals / steps of this project are the following:
 [image1]: ./ImagesForWriteup/SummaryExploration001.jpg "Summary and Exploration"
 [image2]: ./ImagesForWriteup/DistributionTrainingSet.jpg "Distribution Training Set"
 [image3]: ./ImagesForWriteup/DistributionValidationSet.jpg "Distribution Validation Set"
-[image4]: ./ImagesForWriteup/DistributionTest.jpg "Distribution Test Set"
+[image4]: ./ImagesForWriteup/DistributionTestSet.jpg "Distribution Test Set"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
