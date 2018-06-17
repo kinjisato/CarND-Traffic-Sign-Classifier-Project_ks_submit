@@ -245,10 +245,6 @@ Image : 13 Yield
 
 Good prediction
 
-[1.0000000e+00, 5.8766564e-16, 1.8515285e-17, 2.9378810e-18,
-        1.4538629e-18]], dtype=float32), indices=array([[12, 31, 21, 17, 
-        
- [13,  3,  2,  1,  9]], dtype=int32))
 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
