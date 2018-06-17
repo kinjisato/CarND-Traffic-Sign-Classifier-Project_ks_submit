@@ -171,15 +171,84 @@ Image : 31 Wild animals crossing
 | 0.4         			| 8 Speed limit 120km/h  									| 
 | 0.3     				| 10 No passing for vehicles over 3.5 metric tons										|
 | 0.08					| 4	Speed limit 70km/h								|
-| 0.07	      			| 9	No passing	 				|
-| 0.07			    | 0 Speed limit 20km/h    							|
+| 0.06	      			| 9	No passing	 				|
+| 0.06			    | 0 Speed limit 20km/h    							|
 
 Bad prediction
-I was dissaplinted that there were not correct sign in top 5 propability.
+I was dissaplinted that there were not correct sign in top 5 probability.
 Model choosed some triangle shape signs.
 Maybe, need to increase the sample of this sign for training.
 
 
+Image : 40 Roundabout mandatory
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1.0         			| 40	Roundabout mandatory							| 
+| 0.0     				| 42	End of no passing by vehicles over 3.5 metric tons									|
+| 0.0					| 41 End of no passing						|
+| 0.0	      			| 38	Keep right 				|
+| 0.0			    | 16 Vehicles over 3.5 metric tons prohibited 							|
+
+Good prediction
+
+
+Image : 9 No passing
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 0.95         			| 9 No passingy   | 
+| 0.04     				| 10	No passing for vehicles over 3.5 metric tons								|
+| 0.0					| 41 End of no passing						|
+| 0.0	      			| 12 Priority road 			|
+| 0.0			    | 23 Slippery road					|
+
+Good prediction
+
+
+Image : 28 Children crossing
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 0.98         			| 18 General caution  | 
+| 0.01     				| 11	Right-of-way at the next intersection							|
+| 0.0					| 1 Speed limit (30km/h)|
+| 0.0	      			| 28 Children crossing 			|
+| 0.0			    | 3 Speed limit (60km/h)				|
+
+Bad prediction
+Very small probability of correct sign.
+
+
+Image : 14 Stop
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1.0         			| 14 Stop  | 
+| 0.0     				| 1 Speed limit (30km/h)							|
+| 0.0					| 3 Speed limit (60km/h)				|
+| 0.0	      			| 5 Speed limit (80km/h)			|
+| 0.0			    | 17	No entry			|
+
+Good prediction
+
+
+Image : 13 Yield
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1.0         			| 13 Yield  | 
+| 0.0     				| 3 Speed limit (60km/h)								|
+| 0.0					| 2	Speed limit (50km/h)			|
+| 0.0	      			| 1	Speed limit (30km/h)	|
+| 0.0			    | 9 No passing			|
+
+Good prediction
+
+[1.0000000e+00, 5.8766564e-16, 1.8515285e-17, 2.9378810e-18,
+        1.4538629e-18]], dtype=float32), indices=array([[12, 31, 21, 17, 
+        
+ [13,  3,  2,  1,  9]], dtype=int32))
 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
