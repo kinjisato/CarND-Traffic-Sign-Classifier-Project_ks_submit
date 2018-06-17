@@ -76,14 +76,18 @@ My final model consisted of the following layers:
 |:---------------------:|:---------------------------------------------:| 
 | Input         		| 32x32x3 RGB image (normalized)  							| 
 | Convolution 3x3     	| 1x1 stride, padding 'VALID', outputs 28x28x6 	|
-| RELU					|												|
-| RELU					|	drop out 0.9											|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
-| Fully connected		| etc.        									|
-| Softmax				| etc.        									|
-|						|												|
-|						|												|
+| RELU					|	Drop Out (0.9 for training)											|
+| Max pooling	      	| 2x2 stride, padding 'SAME'  outputs 14x14x6 				|
+| Convolution 3x3	    | 1x1 stride, padding 'VALID', outputs 10x10x16 	|
+| RELU					|	Drop Out (0.9 for training)											|
+| Max pooling	      	| 2x2 stride, padding 'SAME'  outputs 5x5x16 				|
+| Flatten		| output = 400       									|
+| Fully connected		| output = 120       									|
+| Fully connected		| output = 84       									|
+| RELU					|	Drop Out (0.9 for training)											|
+| Fully connected		| output = 43 (same as classes of sign       									|
+| Softmax				|         									|
+
  
 
 
