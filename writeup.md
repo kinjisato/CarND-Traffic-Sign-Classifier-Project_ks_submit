@@ -99,7 +99,7 @@ Batch size : 128
 Epochs : 15
 Learning rate : 0.001
 
-Those are the almost the same as the lenet lecture. I choose 15 for epochs to check the validation accuracy becomes good. Other parameters, I don't have time to try (due to my laptop peformance). But, I think Adam optimizer, 128 for batch, 0.001 for lr woudl be ok.
+Those are the almost the same as the lenet lecture. I choose 15 for epochs to check the validation accuracy becomes good. Other parameters, I don't have time to try (due to my laptop peformance). But, I think Adam optimizer, 128 for batch, 0.001 for lr would be ok.
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
@@ -120,7 +120,7 @@ So, as conclusion, adding dropout and increasing epochs gave good improvement fo
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-Here are five German traffic signs that I found on the web:
+I collected 7 German traffic signs from web.
 
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8]
