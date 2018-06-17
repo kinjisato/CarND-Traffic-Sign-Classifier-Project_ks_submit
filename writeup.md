@@ -146,11 +146,21 @@ Here are the results of the prediction:
 | 13 Yield			| 13 Yield      							|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 5 of the 7 traffic signs, which gives an accuracy of 71.4%. 
+Comparing with the test set accuracy of 93.4%, this result was worse.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
+Image : 12 Priority road
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1.0         			| 12 Priority road   									| 
+| 0.0     				| 31 Wild animals corssing 										|
+| 0.0					| 21 Double curve									|
+| 0.0	      			| 17 No entry		 				|
+| 0.0			    | 11 Right of way at next intersection     							|
+
 
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
