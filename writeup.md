@@ -23,10 +23,13 @@ The goals / steps of this project are the following:
 [image2]: ./ImagesForWriteup/DistributionTrainingSet.jpg "Distribution Training Set"
 [image3]: ./ImagesForWriteup/DistributionValidationSet.jpg "Distribution Validation Set"
 [image4]: ./ImagesForWriteup/DistributionTestSet.jpg "Distribution Test Set"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image5]: ./test_images/9_NoPassing.jpg "Traffic Sign 1"
+[image6]: ./test_images/12_PriorityRoad.jpg "Traffic Sign 2"
+[image7]: ./test_images/13_Yield.jpg "Traffic Sign 3"
+[image8]: ./test_images/14_Stop.jpg "Traffic Sign 4"
+[image9]: ./test_images/28_ChildrenCrossing.jpg "Traffic Sign 5"
+[image10]: ./test_images/31_WildAnimalsCross.jpg "Traffic Sign 6"
+[image11]: ./test_images/40_RoundaboutMandatory.jpg "Traffic Sign 7"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -122,8 +125,10 @@ So, as conclusion, adding dropout and increasing epochs gave good improvement fo
 
 I collected 7 German traffic signs from web.
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image5] ![alt text][image6] ![alt text][image7] 
+![alt text][image8] ![alt text][image8] ![alt text][image10]
+![alt text][image11]
+
 
 The first image might be difficult to classify because ...
 
